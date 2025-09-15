@@ -1,4 +1,4 @@
-# WP-React Fullstack App
+# WordPress, React, REST API Fullstack App
 
 ## Project Overview
 
