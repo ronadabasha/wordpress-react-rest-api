@@ -1,4 +1,4 @@
-# WordPress, React, REST API Fullstack App
+# WordPress, React, REST API - Fullstack App
 
 ## Project Overview
 
@@ -19,7 +19,7 @@ A **full-stack project** with **React** frontend and **WordPress** backend. The 
 
 ```
 wordpress-react-rest-api/
-├─ frontend/              # React frontend (Netlify deployable)
+├─ frontend/              # React frontend
 │  ├─ src/
 │  ├─ public/
 │  ├─ package.json
@@ -43,18 +43,14 @@ wordpress-react-rest-api/
    - **Advanced Custom Fields (ACF)**
    - **ACF to REST API**
    - **JWT Authentication for WP REST API**
-4. Configure JWT in `wp-config.php` and `.htaccess`, this part is docoumented om the **JWT plugin** if you click on **View Details**
+4. Configure JWT in `wp-config.php` and `.htaccess`, this part is docoumented on the **JWT plugin** if you click on **View Details**
 
 ```php
 define('JWT_AUTH_SECRET_KEY', 'your-strong-secret-key');
 define('JWT_AUTH_CORS_ENABLE', true);
-```
-
 ...
 
-5. Create pages/posts with ACF fields (text, images, etc.).
-
----
+```
 
 ### 2. Frontend (React)
 
@@ -67,8 +63,8 @@ npm install
 ```
 
 3. Set API URL in `package.json`:
-   Example: `"proxy": "http://your-wordpress-site.com/"`, or
-   `"proxy": "http://localhost:port/"`
+   Example: `"proxy": "http://localhost:port/"` - develompent only,
+   Use environment variables - production
 
 4. Start development server:
 
