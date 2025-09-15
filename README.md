@@ -62,9 +62,10 @@ define('JWT_AUTH_CORS_ENABLE', true);
 npm install
 ```
 
-3. Set API URL in `package.json`:
-   Example: `"proxy": "http://localhost:port/"` - develompent only,
-   Use environment variables - production
+3. Set API URL in `package.json` for dev:
+   Example: `"proxy": "http://localhost:port/"`
+
+   Use environment variables for production
 
 4. Start development server:
 
