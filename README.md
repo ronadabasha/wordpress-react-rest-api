@@ -78,3 +78,17 @@ npm start
 ```bash
 npm run build
 ```
+
+## Alternative Frontends
+
+Although this project demonstrates a **React** frontend, the same approach works with other frameworks:
+
+- **Next.js** – for server-side rendering, static site generation, and better SEO.
+- **Angular** – for enterprise-scale applications with TypeScript.
+- **Vue.js** – for a lightweight, flexible frontend option.
+
+The core logic remains the same:
+
+1. Fetch content via the **WordPress REST API** (or GraphQL if using WPGraphQL).
+2. Handle **JWT Authentication** for protected routes.
+3. Render data in your chosen frontend framework.
